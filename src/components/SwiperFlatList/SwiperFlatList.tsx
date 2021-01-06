@@ -1,5 +1,6 @@
 import React from 'react';
-import { FlatList, FlatListProps, Platform, Text } from 'react-native';
+import { FlatListProps, Platform, Text } from 'react-native';
+import { FlatList} from 'react-native-gesture-handler';
 
 import { Pagination } from '../Pagination/Pagination';
 import { SwiperFlatListProps } from './SwiperFlatListProps';
